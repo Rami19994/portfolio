@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-d8tt5ml8i*iv=_js^z+%38fw0k*z87@z&(z3)lnt)#28i(s%bt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['portfolio-production-3394.up.railway.app','railway.app','vercel.app','127.0.0.1', '648c7e0c5392.ngrok-free.app','0f030760d90e.ngrok-free.app']
+ALLOWED_HOSTS = ['rahafalhalabi.com','portfolio-production-3394.up.railway.app','railway.app','vercel.app','127.0.0.1', '648c7e0c5392.ngrok-free.app','0f030760d90e.ngrok-free.app']
 
 
 # Application definition
@@ -131,6 +131,7 @@ STATICFILES_DIRS=[
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
 

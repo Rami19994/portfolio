@@ -4,3 +4,5 @@ whitenoise
 asgiref
 sqlparse
 tzdata
+
+Pillow==11.0.0

@@ -28,7 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['w5obk14r.up.railway.app','rahafalhalabi.up.railway.app','railway.app','vercel.app','127.0.0.1', '648c7e0c5392.ngrok-free.app','0f030760d90e.ngrok-free.app']
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://rahafalhalabi.up.railway.app',
+    'https://w5obk14r.up.railway.app',
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -133,6 +136,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
 
